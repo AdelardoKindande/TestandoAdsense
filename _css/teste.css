@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+
+
+/*area principal*/
+body{
+    background: #606060;
+}
+
+.area{
+    background-color: #f7f1f1;
+}
+
+
+
+h1#per{
+    font-size: 45px;
+    color: rgb(60, 192, 60);
+}
+
+h2{
+   
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,h2{
+    display: inline-block;
+
+}
+
+
+
+h1.fo{
+    font-family: 'bi', serif;
+    font-size: 40px;
+    background-color: cadetblue; 
+    padding: auto;
+    border-radius: 1px 1px 1px 1px;
+}
+
+p#rul{
+    font-size: 19px;
+    color: red;
+
+}
+

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: url("../_imagens/Background.png");
+    
+}
+
+/*area principal*/
+
+.area{
+    width: auto;
+    margin: auto;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 15px;
+}
+
+nav#mu {
+    display: block;  
+    width: 1200px;
+    margin-top: 5px;
+
+}
+
+
+
+
+ nav#mu ul{
+    list-style: none;
+    position: relative;
+    top:-150px;
+    left: 750px;
+   
+
+}
+nav#mu li{
+    display: inline-block;
+    color:white;
+    padding: 6px;
+    font-family: 'fonte';
+    transition: background-color 1s;
+    font-size: 20px;
+    
+}
+
+nav#mu a{
+    color:white;
+    text-decoration: none;
+}
+
+nav#mu a:hover{
+    color: cadetblue;
+}
+
+
+
+div .ce{
+    display: inline-block;
+    width:250px;
+    height: 450px;
+    padding: 9px;
+    text-align: center;
+    border: 1px solid #606060;
+    margin: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #000000;
+    color: #dddddd;
+    box-shadow: 6px solid #000000;
+    border-radius: 10px;
+}
+div.ce img{
+  
+    width: 200px;
+    height: 200px;
+   
+}
+
+
+div.ce figure{
+    margin-right: center;
+    margin-left: center;
+    float: left;
+
+}
+
+div.ce h1{
+    font-size: 20px;
+    color:  #62aa38;
+  
+}
+
+div .ce p{
+    text-align: justify;
+    text-indent: 5px;
+}
